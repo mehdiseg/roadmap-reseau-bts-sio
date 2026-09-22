@@ -95,6 +95,3 @@ Une partie de ce compte a été rédigée **avec l'aide de l'assistant IA Claude
 
 Je m'appuie sur ce qui a pu être **vérifié** : les outils marqués « Testé » ont des tests qui passent, et les guides « À réaliser » le disent clairement. Un lab ne passe en « Réalisé » qu'une fois refait par mes soins, avec captures et journal remplis.
 
-## Licence
-
-[MIT](LICENSE) pour les contenus de ce dépôt. Les projets forkés gardent leur licence d'origine.
