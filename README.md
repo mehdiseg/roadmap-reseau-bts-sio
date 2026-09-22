@@ -20,6 +20,7 @@ Le point d'entrée de mes projets réseau et systèmes : **ce qui est réalisé,
 | [santas-workshop](https://github.com/mehdiseg/santas-workshop) | Application web de suivi de production de cadeaux, avec correction d'une faille XSS |
 | [techshop](https://github.com/mehdiseg/techshop) | Refonte d'un site e-commerce (HTML, CSS, JavaScript) |
 | [mehdiseg.github.io](https://github.com/mehdiseg/mehdiseg.github.io) | Mon portfolio BTS SIO |
+| [mehdiseg-informatique](https://github.com/mehdiseg/mehdiseg-informatique) | Site vitrine de mon activité d'informaticien à domicile (dépannage, réseau, montage PC) — [en ligne](https://mehdiseg.github.io/mehdiseg-informatique/) |
 | noha-auto (dépôt privé) | Serveur de catalogue et de stock d'un magasin, comptes et HTTPS ; le code est présenté sur demande |
 
 ## 2. Outils testés
