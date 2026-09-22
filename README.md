@@ -7,6 +7,7 @@ Le point d'entrée de mes projets réseau et systèmes : **ce qui est réalisé,
 | **Réalisé** | mis en œuvre et documenté (voir le dépôt) |
 | **Testé** | outil ou guide avec des tests automatiques qui passent, rejoués à chaque `push` quand une CI est indiquée |
 | **À réaliser** | guide préparé, **pas encore rejoué de bout en bout** ; un journal en bas de page sera rempli avec mes résultats |
+| **À réaliser · commandes vérifiées** | comme ci-dessus, mais l'assistant IA qui a préparé le guide a en plus rejoué chaque commande avec le vrai logiciel dans un conteneur Docker jetable ; **je** ne l'ai pas encore fait moi-même sur mon propre lab |
 | **Fork à pratiquer** | projet d'une autre personne, copié tel quel (fork) pour m'entraîner ; ce n'est **pas mon code** |
 
 ## 1. Réalisé
@@ -60,14 +61,14 @@ flowchart LR
 | [lab-cisco-hsrp-redondance](https://github.com/mehdiseg/lab-cisco-hsrp-redondance) | Packet Tracer | À réaliser |
 | [lab-cisco-etherchannel-lacp](https://github.com/mehdiseg/lab-cisco-etherchannel-lacp) | Packet Tracer | À réaliser |
 | [lab-cisco-vpn-ipsec-site-a-site](https://github.com/mehdiseg/lab-cisco-vpn-ipsec-site-a-site) | Packet Tracer (licence securityk9) | À réaliser |
-| [lab-dhcp-dns-debian](https://github.com/mehdiseg/lab-dhcp-dns-debian) | Debian, Kea, BIND 9 | À réaliser |
-| [lab-nginx-reverse-proxy-tls](https://github.com/mehdiseg/lab-nginx-reverse-proxy-tls) | Debian, nginx, PKI interne | À réaliser |
-| [lab-fail2ban-ssh-durcissement](https://github.com/mehdiseg/lab-fail2ban-ssh-durcissement) | Debian, sshd, fail2ban | À réaliser |
-| [lab-suricata-ids-detection](https://github.com/mehdiseg/lab-suricata-ids-detection) | Debian, Suricata, Nmap | À réaliser |
+| [lab-dhcp-dns-debian](https://github.com/mehdiseg/lab-dhcp-dns-debian) | Debian, Kea, BIND 9 | À réaliser · commandes vérifiées |
+| [lab-nginx-reverse-proxy-tls](https://github.com/mehdiseg/lab-nginx-reverse-proxy-tls) | Debian, nginx, PKI interne | À réaliser · commandes vérifiées |
+| [lab-fail2ban-ssh-durcissement](https://github.com/mehdiseg/lab-fail2ban-ssh-durcissement) | Debian, sshd, fail2ban | À réaliser · commandes vérifiées |
+| [lab-suricata-ids-detection](https://github.com/mehdiseg/lab-suricata-ids-detection) | Debian, Suricata, Nmap | À réaliser · commandes vérifiées |
 | [lab-supervision-zabbix](https://github.com/mehdiseg/lab-supervision-zabbix) | Debian, Zabbix, SNMP | À réaliser |
-| [lab-freeradius-authentification](https://github.com/mehdiseg/lab-freeradius-authentification) | Debian, FreeRADIUS, switch Cisco | À réaliser |
+| [lab-freeradius-authentification](https://github.com/mehdiseg/lab-freeradius-authentification) | Debian, FreeRADIUS, switch Cisco | À réaliser · commandes vérifiées |
 | [lab-pfsense-dmz-vlans](https://github.com/mehdiseg/lab-pfsense-dmz-vlans) | VirtualBox, pfSense | À réaliser |
-| [lab-ansible-automatisation-reseau](https://github.com/mehdiseg/lab-ansible-automatisation-reseau) | Ansible, équipement Cisco en SSH | À réaliser |
+| [lab-ansible-automatisation-reseau](https://github.com/mehdiseg/lab-ansible-automatisation-reseau) | Ansible, équipement Cisco en SSH | À réaliser · commandes vérifiées |
 
 ## 4. Projets d'autres personnes à pratiquer
 
