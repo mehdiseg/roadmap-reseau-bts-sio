@@ -1,6 +1,6 @@
 # Feuille de route réseau (BTS SIO SISR)
 
-Le point d'entrée de mes projets réseau et systèmes : **ce qui est réalisé, ce qui est testé, ce que je prépare, et les projets libres que je vais pratiquer**. Chaque ligne indique son **statut réel**, pour ne pas confondre un projet terminé avec un guide encore à faire.
+Le point d'entrée de mes projets réseau et systèmes : **ce qui est réalisé, ce qui est testé, et ce que je prépare**. Chaque ligne indique son **statut réel**, pour ne pas confondre un projet terminé avec un guide encore à faire.
 
 | Statut | Signification |
 |---|---|
@@ -9,7 +9,6 @@ Le point d'entrée de mes projets réseau et systèmes : **ce qui est réalisé,
 | **À réaliser** | guide préparé, **pas encore rejoué de bout en bout** ; un journal en bas de page sera rempli avec mes résultats |
 | **À réaliser · commandes vérifiées** | comme ci-dessus, mais l'assistant IA qui a préparé le guide a en plus rejoué chaque commande avec le vrai logiciel dans un conteneur Docker jetable ; **je** ne l'ai pas encore fait moi-même sur mon propre lab |
 | **À réaliser · déployé réellement** | encore plus loin : l'assistant IA a construit un vrai déploiement complet (serveur, VM ou conteneurs) et l'a configuré de bout en bout comme le demande le guide, preuve à l'appui (captures d'écran de l'interface elle-même) ; **je** ne l'ai toujours pas fait moi-même sur mon propre lab |
-| **Fork à pratiquer** | projet d'une autre personne, copié tel quel (fork) pour m'entraîner ; ce n'est **pas mon code** |
 
 ## 1. Réalisé
 
@@ -70,24 +69,6 @@ flowchart LR
 | [lab-freeradius-authentification](https://github.com/mehdiseg/lab-freeradius-authentification) | Debian, FreeRADIUS, switch Cisco | À réaliser · commandes vérifiées |
 | [lab-pfsense-dmz-vlans](https://github.com/mehdiseg/lab-pfsense-dmz-vlans) | VirtualBox, pfSense | À réaliser · déployé réellement |
 | [lab-ansible-automatisation-reseau](https://github.com/mehdiseg/lab-ansible-automatisation-reseau) | Ansible, équipement Cisco en SSH | À réaliser · commandes vérifiées |
-
-## 4. Projets d'autres personnes à pratiquer
-
-Forks de projets libres liés au réseau, conservés **intacts** (auteurs, historique et licence d'origine). Je les explorerai un à un ; ce n'est pas mon travail.
-
-| Projet (fork) | Licence | Ce que j'en ferai |
-|---|---|---|
-| [CCNA-Labs](https://github.com/mehdiseg/CCNA-Labs) | MIT | refaire les labs Packet Tracer dans l'ordre |
-| [Network-Simulation-Using-Cisco-Packet-Tracer](https://github.com/mehdiseg/Network-Simulation-Using-Cisco-Packet-Tracer) | MIT | reconstruire la simulation d'un réseau de trois entreprises |
-| [cisco-cheatsheet](https://github.com/mehdiseg/cisco-cheatsheet) | GPL-3.0 | aide-mémoire de commandes IOS |
-| [netmiko](https://github.com/mehdiseg/netmiko) | MIT | automatiser des équipements en Python, à comparer avec Ansible |
-| [containerlab](https://github.com/mehdiseg/containerlab) | BSD-3-Clause | labs réseau en conteneurs, sans matériel |
-| [scapy](https://github.com/mehdiseg/scapy) | GPL-2.0 | fabriquer et analyser des paquets, prolongement du TP Wireshark |
-| [termshark](https://github.com/mehdiseg/termshark) | MIT | analyser des captures depuis un terminal |
-| [WatchYourLAN](https://github.com/mehdiseg/WatchYourLAN) | MIT | surveiller un réseau, à comparer avec mon scanner PowerShell |
-| [headscale](https://github.com/mehdiseg/headscale) | BSD-3-Clause | serveur de contrôle Tailscale auto-hébergé |
-| [wireguard-install](https://github.com/mehdiseg/wireguard-install) | MIT | lire le script pour comprendre l'installation de WireGuard |
-| [wireguard-docs](https://github.com/mehdiseg/wireguard-docs) | MIT | documentation détaillée de WireGuard |
 
 ## Transparence
 
